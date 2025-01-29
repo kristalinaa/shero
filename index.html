@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+<!-- Glide.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+
+    <title>Shero</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="promo-banner">Use this banner to advertise a special promotion—20% off!</div>
+        <nav class="top-nav">
+            <div class="left-nav">
+                <a href="#">STITCH REWARDS</a>
+                <a href="#">QUICK ORDER</a>
+                <a href="#">STORE LOCATOR</a>
+            </div>
+            <div class="right-nav">
+                <a href="#">CART</a>
+                <a href="#">SIGN UP - LOG IN</a>
+                <span class="search-icon">🔍</span>
+            </div>
+        </nav>
+        <div class="main-nav">
+            <div  class="row" style="justify-content: space-between;">
+                <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+                <div class="logo">Shero</div>
+                <ul class="nav-links">
+                    <li><a href="#">Top Thread</a></li>
+                    <li><a href="#">Bobbins</a></li>
+                    <li><a href="#">Stabilizer</a></li>
+                    <li><a href="#">Displays</a></li>
+                    <li><a href="#">Notions</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="page">
+        <div class="top">
+            <div>
+                <img src="assets/foto1.jpg" alt="Flowers in Chania" style="width: 100%; height: 500px" />
+
+            </div>
+            <div class="row">
+                <div class="colomn">
+                    <img src="assets/foto2.jpg" alt="Flowers in Chania" style="width: 450px; height: 300px" />
+                    <p>sunset</p>
+                </div>
+                <div class="colomn">
+                    <img src="assets/foto2.jpg" alt="Flowers in Chania" style="width: 450px; height: 300px" />
+                    <p>sunset</p>
+
+                </div>
+                <div class="colomn">
+                    <img src="assets/foto2.jpg" alt="Flowers in Chania" style="width: 450px; height: 300px" />
+                    <p>sunset</p>
+
+                </div>
+            </div>
+            <div class="grid">
+                <div class="card-wrapper">
+                   <div class="card">
+                        <p class="title">Retail Store Locator</p>
+                        <p class="title" style="font-size: 21px; font-weight: 500;">Buy out products in more than 600 retail store worldwide</p>
+                        
+                        <button>Search retail store</button>
+
+                   </div>
+                  </div>
+                <div class="">
+                    <img src="assets/map.jpg" style="width: 100%; height: 320px; object-fit: contain;"  />
+
+
+                </div>
+            </div>
+
+            <div class="feature-products">
+                <p style="font-weight: 500; letter-spacing: 2px; color:rgb(53, 52, 52); text-transform: uppercase;">FEATURED PRODUCTS</p>
+                
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="container">
+                                    <div class="wrapper">
+                                        <img src="assets/transparent.png" alt="Toyota Supra">
+                                        <p class="title">Toyota Supra</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="container">
+                                    <div class="wrapper">
+                                        <img src="assets/transparent.png" alt="Toyota Supra">
+                                        <p class="title">Toyota Supra</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="container">
+                                    <div class="wrapper">
+                                        <img src="assets/transparent.png" alt="Toyota Supra">
+                                        <p class="title">Toyota Supra</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="container">
+                                    <div class="wrapper">
+                                        <img src="assets/transparent.png" alt="Toyota Supra">
+                                        <p class="title">Toyota Supra</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            
+                    <!-- Navigation buttons -->
+                    <div class="glide__arrows" style="display: none;"  data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">◀</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">▶</button>
+                    </div>
+            
+                    <!-- Pagination -->
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                        <button class="glide__bullet" data-glide-dir="=0"></button>
+                        <button class="glide__bullet" data-glide-dir="=1"></button>
+                        <button class="glide__bullet" data-glide-dir="=2"></button>
+                        <button class="glide__bullet" data-glide-dir="=3"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex-column" style="background-color: rgb(220, 220, 220);">
+                <div style="width: 60%; padding: 30px;" class="flex-column" >
+                    <p style="font-size: 22px;font-weight: 500; text-transform: uppercase;">TESTIMONIALS</p>
+                    <p style="font-style: italic;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem esse autem hic ea? Labore, excepturi saepe hic doloremque deserunt facere inventore temporibus cupiditate expedita eaque odit, vitae necessitatibus odio voluptate.</p>
+                    <p style="font-weight: 400;">Angel Walters</p>
+                </div>
+            </div>
+            
+        </div>
+
+
+      
+
+        <section class="footer">
+            <div class="footer-row">
+              <div class="footer-col">
+                <h4>Info</h4>
+                <ul class="links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Compressions</a></li>
+                  <li><a href="#">Customers</a></li>
+                  <li><a href="#">Service</a></li>
+                  <li><a href="#">Collection</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="links">
+                  <li><a href="#">Free Designs</a></li>
+                  <li><a href="#">Latest Designs</a></li>
+                  <li><a href="#">Themes</a></li>
+                  <li><a href="#">Popular Designs</a></li>
+                  <li><a href="#">Art Skills</a></li>
+                  <li><a href="#">New Uploads</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Legal</h4>
+                <ul class="links">
+                  <li><a href="#">Customer Agreement</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">GDPR</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Media Kit</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>
+                  Subscribe to our newsletter for a weekly dose
+                  of news, updates, helpful tips, and
+                  exclusive offers.
+                </p>
+                <form action="#">
+                  <input type="text" placeholder="Your email" required>
+                  <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-github"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        
+    </div>
+</body>
+
+</html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new Glide(".glide", {
+        type: "carousel",
+        perView: 4, // Adjust the number of visible items
+        focusAt: "center",
+        gap: 20,
+        autoplay: 3000, // Auto-slide every 3 seconds
+        hoverpause: true,
+        breakpoints: {
+          1024: { perView: 3 },
+          768: { perView: 2 },
+          480: { perView: 1 }
+        }
+      }).mount();
+    });
+
+
+    function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+  </script>
+  
